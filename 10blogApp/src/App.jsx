@@ -30,6 +30,8 @@ function App() {
         <main>
           <Outlet />
         </main>
+      </div>
+      <div className="w-full block">
         <Footer />
       </div>
     </div>

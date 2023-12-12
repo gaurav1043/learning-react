@@ -59,7 +59,7 @@ function Login() {
                 required: true,
                 validate: {
                   matchPatern: (value) =>
-                    /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(value) ||
+                    /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(value) || // regular expression (7regex)
                     "Email address must be a valid address",
                 },
               })}
